@@ -190,16 +190,16 @@ const Transfer = () => {
     <>
       <div className={styles.container}>
         <Head>
-          <title>Mimic Finance | Mint JUSD</title>
+          <title>Simple Bank | Transfer</title>
           <meta name="description" content="Dai Faucet" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <Text fontSize="4xl" fontWeight="bold" pt={5} align="center">
-          Mint
+          Transfer
         </Text>
         <Text fontSize="md" align="center" pt={0}>
-          Mint JUSD with any Stable coin
+          Transfer DAI from your account to other account
         </Text>
 
         <Container maxW={"4xl"} pt={5}>
