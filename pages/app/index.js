@@ -2,12 +2,12 @@ import { useState } from "react";
 
 import styles from "styles/Home.module.css";
 import Head from "next/head";
-import { Panel } from "components/deposit/Panel";
+import { Panel } from "components/BankService/Panel";
 import { useRouter } from "next/router";
 
 import { Text, Grid, Container, Box, GridItem, Image } from "@chakra-ui/react";
 
-import TVD from "components/deposit/TVD";
+import TVD from "components/BankService/TVD";
 
 const StableCoinPool = () => {
   const router = useRouter();
